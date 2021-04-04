@@ -1,4 +1,4 @@
-p, h1, h2, h3, h4, h5, h6, span, img, a {
+p, h1, h2, h3, h4, h5, h6, span, img, a, head {
     border: 2px dashed gray;
 } 
 header {
@@ -8,7 +8,7 @@ header {
 
 .caixa {
     position: relative;
-    width: 1030px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -31,19 +31,24 @@ nav a {
     text-decoration: none;
 }
 
+.produtos {
+    padding: 50px 20%;
+}
+
 
 .produtos li {
     display:inline-block;
     text-align: center;
-    width: 25%;
+    width: 30%;
     vertical-align: top;
+    background: #ccc;
     padding-right: 5px;
+    margin: 0 1.5%;
+    padding: 1% ;
+    box-sizing: border-box;
     
 } 
 
-.produtos {
-    padding-left: 250px;
-}
 
 .produtos h2 {
     font-size: 30px;
@@ -57,4 +62,5 @@ nav a {
 .produto-preco {
     font-size: 22px;
     font-weight: bold;
+    margin: 10px;
 }
