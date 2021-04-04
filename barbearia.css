@@ -8,26 +8,57 @@ body {
 
 }
 
+.titulo-principal {
+    padding-left: 20px;
+}
+
+header {
+
+}
+
+div {
+
+}
+
 #banner {
     width: 100%;
 }
 
 .principal {
     background: #CCC ;
+    padding: 30px;
 }
 
-h1 {
+.titulo-centralizado {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-}
+
 
 p {
     text-align: center;
 }
 
+div {
+
+}
+
+.beneficios {
+    background: #fff;
+    padding: 20px;
+}
+
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
 .itens {
     font-style: italic;
 }
@@ -40,6 +71,5 @@ em strong {
     color: #ff0000;
 }
 
-.beneficios {
-    background: #fff ;
-}
+
+
