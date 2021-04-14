@@ -137,12 +137,26 @@ form label, form legend {
     font-size: 18px;
     border:none;
     border-radius: 5px;
-    transition: 1s;
+    transition: 0.2s all;
     cursor: pointer;
-    .
 }
 
 .enviar:hover {
     background: darkorange;
+    transform: rotate(360deg);
 }
- 
+
+.piruleta {
+    background-image: url("./imagens/pomadapiruleta.png");
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 950px;
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat; 
+    border:none;
+}
+
+.piruleta:hover {
+    transform: rotate(40deg) scale(1.2);
+}
