@@ -143,7 +143,7 @@ form label, form legend {
 
 .enviar:hover {
     background: darkorange;
-    transform: rotate(360deg);
+    transform: scale(1.2);
 }
 
 .piruleta {
@@ -154,10 +154,26 @@ form label, form legend {
     width: 250px;
     height: 250px;
     background-repeat: no-repeat; 
-    border:none;
+    border-radius: 160px;
+    border: none;
+    transition: 0.5s all;
 }
 
 .piruleta:hover {
     transform: rotate(40deg) scale(1.2);
 }
-.só para commitar
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555;
+    color: white;
+    font-weight: bold;    
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 8px 15px;
+}
