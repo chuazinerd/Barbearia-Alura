@@ -1,6 +1,11 @@
 p, h1, h2, h3, h4, h5, h6, span, img, a, head, label, input{
     border: 2px dashed gray;
 } 
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #BBB;
     padding: 20px 0;
@@ -182,7 +187,7 @@ td, th {
 }
 
 /*
- *    Estilo da pagina principal
+ *    Melhorando o estilo da pagina principal
  */
 
  .banner {
