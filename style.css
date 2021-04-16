@@ -1,5 +1,5 @@
-p, h1, h2, h3, h4, h5, h6, span, img, a, head, label, input{
-    border: 2px dashed gray;
+p, h1, h2, h3, h4, h5, h6, span, img, a, head, label, input, iframe{
+    border: 2px dashed rgb(211, 182, 182);
 } 
 
 body {
@@ -186,9 +186,8 @@ td, th {
     padding: 8px 15px;
 }
 
-/*
- *    Melhorando o estilo da pagina principal
- */
+/* Melhorando o estilo da pagina principal */
+
 
  .banner {
      width: 100%;
@@ -222,3 +221,16 @@ td, th {
 .imgbeneficios {
     width:60%;
 }
+
+/* formatações para o mapa da barbearia */
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 3em ;
+    text-align: center;
+}
+
+/* */
