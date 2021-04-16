@@ -163,6 +163,9 @@ form label, form legend {
     transform: rotate(40deg) scale(1.2);
 }
 
+
+/* Estilos da tabela de horários */
+
 table {
     margin: 20px 0 40px;
 }
