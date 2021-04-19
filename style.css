@@ -193,8 +193,9 @@ td, th {
      clear: left;
  }
 
-.titulo-principal::first-letter {
+.titulo-principal:first-letter {
     font-weight: bold;
+    font-style: italic;
 } 
 
  .principal {
