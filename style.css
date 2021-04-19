@@ -198,7 +198,23 @@ td, th {
     font-style: italic;
 } 
 
- .principal {
+p::first-line {
+    font-size: 15px;
+}
+
+.titulo-principal::before {
+    content: "[";
+}
+
+.titulo-principal::after {
+    content: "]";
+}
+
+.itens::before {
+    content: "\2693";
+}
+
+.principal {
     padding: 3em 0;
     background: #FEFEFE;
     width: 940px;
