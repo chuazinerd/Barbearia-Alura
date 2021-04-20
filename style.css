@@ -193,7 +193,7 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-    text-shadow: 2px 2px #FF0000; 
+    text-shadow: 2px 2px #BBB; 
  }
 
 .titulo-principal:first-letter {
@@ -313,3 +313,11 @@ p::first-line {
 .video iframe:hover {
     opacity: 0.9;
 }
+
+/* tornando site reponsívo */
+
+@media screen and (max-width: 480px) {
+    body {
+        background: red;
+    }
+} 
