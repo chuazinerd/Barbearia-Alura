@@ -1,4 +1,7 @@
-
+/* "Caderno CSS de Caligrafia" */
+p, h1, h2, h3, h4, h5, h6, span, img, a, iframe {
+    border: 2px dashed gray;
+}  
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -182,6 +185,7 @@ td, th {
 
  .banner {
      width: 100%;
+     opacity: 0.9;
  }
  
  .titulo-principal {
@@ -189,6 +193,7 @@ td, th {
      font-size: 2em;
      margin: 0 0 1em;
      clear: left;
+     color: rgba(0,0,0,0.3);
  }
 
 .titulo-principal:first-letter {
@@ -235,6 +240,7 @@ p::first-line {
     width: calc(20% - 26px);
     float: left;
     margin: 0 20px 20px 0;
+    opacity: 0.8;
 }
 
 /* formatações para o mapa da barbearia */
@@ -282,8 +288,8 @@ p::first-line {
 
 .imagem-beneficios {
     width:60%;
+    opacity: 0.8;
 }
-
 
 /* formatações do vídeo da barbearia */
 
@@ -291,5 +297,10 @@ p::first-line {
     width: 936px;
     height: 380px;
     margin-left: 350px;
+    opacity: 0.7;
+    transition: 600ms;
+}
 
+.video iframe:hover {
+    opacity: 0.9;
 }
