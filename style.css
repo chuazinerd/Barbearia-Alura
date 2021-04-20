@@ -189,11 +189,11 @@ td, th {
  }
  
  .titulo-principal {
-     text-align: center;
-     font-size: 2em;
-     margin: 0 0 1em;
-     clear: left;
-    text-shadow: 2px 2px #f00; 
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 2px #FF0000; 
  }
 
 .titulo-principal:first-letter {
@@ -229,7 +229,7 @@ p::first-line {
  }
 
  .principal strong {
-     font-weight: bold;
+    font-weight: bold;
  }
 
 .principal em {
@@ -289,7 +289,7 @@ p::first-line {
 .imagem-beneficios {
     width:60%;
     opacity: 0.8;
-    box-shadow: 10px 10px 10px 0 #000 ;
+    box-shadow: -10px -10px 10px 0 #000 ;
 }
 
 
