@@ -193,7 +193,7 @@ td, th {
      font-size: 2em;
      margin: 0 0 1em;
      clear: left;
-     color: rgba(0,0,0,0.3);
+    text-shadow: 2px 2px #f00; 
  }
 
 .titulo-principal:first-letter {
@@ -289,16 +289,25 @@ p::first-line {
 .imagem-beneficios {
     width:60%;
     opacity: 0.8;
+    box-shadow: 10px 10px 10px 0 #000 ;
 }
+
+
+.imagem-beneficios:hover {
+    opacity: 0.6;
+}
+
 
 /* formatações do vídeo da barbearia */
 
 .video iframe {
     width: 936px;
     height: 380px;
-    margin-left: 350px;
+    margin: 80px;
+    margin-left: 20%;
     opacity: 0.7;
     transition: 600ms;
+
 }
 
 .video iframe:hover {
