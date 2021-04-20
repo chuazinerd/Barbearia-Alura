@@ -1,323 +1,268 @@
-/* "Caderno CSS de Caligrafia" */
-p, h1, h2, h3, h4, h5, h6, span, img, a, iframe {
-    border: 2px dashed gray;
-}  
-
 body {
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background: #BBB;
-    padding: 20px 0;
-    background: radial-gradient( #FEFEFE , #888888);
+	background: #BBBBBB;
+	padding: 20px 0;
 }
 
 .caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
 nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-    
+	position: absolute;
+	top: 110px;
+	right: 0;
 }
 
 nav li {
-    display: inline;
-    margin: 0 0 0 15px;
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
 nav a {
-    text-transform: uppercase;
-    color: #000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
+
 nav a:hover {
-    color: rgb(184, 134, 11);
-    text-decoration: underline;
+	color: #C78C19;
+	text-decoration: underline;
 }
 
 .produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
 
 .produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 3px solid #000;
-    border-radius: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
 .produtos li:hover {
-    border-color: rgb(184, 134, 11);
+	border-color: #C78C19;
 }
 
 .produtos li:active {
-    border-color:rgb(0, 100, 0);
+	border-color: #088C19;	
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
+	font-size: 34px;
 }
 
 .produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
+	font-size: 30px;
+	font-weight: bold;
 }
 
 .produto-descricao {
-    font-size: 18px;
+	font-size: 18px;
 }
 
 .produto-preco {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
 }
 
 footer {
-    text-align: center;
-    background-image: url("./imagens/bg.jpg");
-    padding: 40px 0;
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
 }
 
 .copyright {
-    color: #fff;
-    font-size: 15px;
-    margin: 20px 0 0;
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
 }
 
-/* formulários b-Alura */
-
 main {
-    
+	
 }
 
 form {
-    margin: 40px;
+	margin: 40px 0;
 }
 
 form label, form legend {
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
 
 .input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
 
 .checkbox {
-    margin: 20px 0;
+	margin: 20px 0;
 }
 
 .enviar {
-    width: 40%;
-    padding: 15px 0;
-    background:orange;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border:none;
-    border-radius: 5px;
-    transition: 0.2s all;
-    cursor: pointer;
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
 }
 
 .enviar:hover {
-    background: darkorange;
-    transform: scale(1.2);
+	background: darkorange;
+	transform: scale(1.2);
 }
-
-.piruleta {
-    background-image: url("./imagens/pomadapiruleta.png");
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    margin-top: 160px;
-    margin-left: 950px;
-    background-repeat: no-repeat; 
-    border-radius: 160px;
-    border: none;
-    transition: 0.5s all;
-}
-
-.piruleta:hover {
-    transform: rotate(40deg) scale(1.2);
-}
-
-
-/* Estilos da tabela de horários */
 
 table {
-    margin: 20px 0 40px;
+	margin: 20px 0 40px;
 }
 
 thead {
-    background: #555;
-    color: white;
-    font-weight: bold;    
+	background: #555555;
+	color: white;
+	font-weight: bold;
 }
 
 td, th {
-    border: 1px solid #000;
-    padding: 8px 15px;
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
 
-/* Melhorando o estilo da pagina principal */
 
-
- .banner {
-     width: 100%;
-     opacity: 0.9;
- }
- 
- .titulo-principal {
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear: left;
-    text-shadow: 2px 2px #BBB; 
- }
-
-.titulo-principal:first-letter {
-    font-weight: bold;
-    font-style: italic;
-} 
-
-p::first-line {
-    font-size: 15px;
+/* css da página inicial */
+.banner {
+	width:100%;
 }
 
-.titulo-principal::before {
-    content: "[";
-}
-
-.titulo-principal::after {
-    content: "]";
-}
-
-.itens::before {
-    content: "\2693";
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
 }
 
 .principal {
-    padding: 3em 0;
-    background: #FEFEFE;
-    width: 940px;
-    margin: 0 auto;
- }
- 
- .principal p {
-     margin: 0 0 1em;
- }
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
 
- .principal strong {
-    font-weight: bold;
- }
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
 
 .principal em {
-    font-style: italic;
+	font-style: italic;
 }
 
 .utensilios {
-    width: calc(20% - 26px);
-    float: left;
-    margin: 0 20px 20px 0;
-    opacity: 0.8;
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
 }
 
-/* formatações para o mapa da barbearia */
-
 .mapa {
-    padding: 3em 0;
-    background: linear-gradient( #FEFEFE , #888888);
-
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa-conteudo {
-    width: 940px;
-    margin: 0 auto;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .mapa p {
-    margin: 0 0 3em ;
-    text-align: center;
+	margin: 0 0 2em;
+	text-align: center;
 }
 
-
 .beneficios {
-    padding: 3em 0;
-    background: #888;
+	padding: 3em 0;
+	background: #888888;
 }
 
 .conteudo-beneficios {
-    width: 640px;
-    margin: 0 auto;
+	width: 640px;
+	margin: 0 auto;
 }
 
 .lista-beneficios {
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .itens {
-    line-height: 1.5;
+	line-height: 1.5;
 }
 
-.itens:nth-child(1) {
-    font-weight: bold;
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "🟊";
 }
 
 .imagem-beneficios {
-    width:60%;
-    opacity: 0.8;
-    box-shadow: -10px -10px 10px 0 #000 ;
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
 }
-
 
 .imagem-beneficios:hover {
-    opacity: 0.6;
+	opacity: 0.3;
 }
 
-
-/* formatações do vídeo da barbearia */
-
-.video iframe {
-    width: 936px;
-    height: 380px;
-    margin: 80px;
-    margin-left: 20%;
-    opacity: 0.7;
-    transition: 600ms;
-
+.video {
+	width: 560px;
+	margin: 2em auto;
 }
-
-.video iframe:hover {
-    opacity: 0.9;
-}
-
-/* tornando site reponsívo */
 
 @media screen and (max-width: 480px) {
-    body {
-        background: red;
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
     }
-} 
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}

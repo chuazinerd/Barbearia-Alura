@@ -1,113 +1,48 @@
-/* "Caderno CSS de Caligrafia" */
-p, h1, h2, h3, h4, h5, h6, span, img, a {
-    border: 2px dashed gray;
-}  
-
-/* Alura Barbearia */
-body {
-
+#banner {
+	width:100%;
 }
 
-header {
-    background: #BBB;
-    padding: 20px 0;
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
 }
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: #000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-nav a:hover {
-    color: rgb(184, 134, 11);
-    text-decoration: underline;
-}
-
 
 .titulo-principal {
-    padding-left: 20px;
-}
-
-header {
-
-}
-
-div {
-
-}
-
-#banner {
-    width: 100%;
-}
-
-.principal {
-    background: #CCC ;
-    padding: 30px;
+	padding-left: 20px;
 }
 
 .titulo-centralizado {
-    text-align: center;
+	text-align: center
 }
 
 p {
-    text-align: center;
-}
-
-div {
-
-}
-
-.beneficios {
-    background: #fff;
-    padding: 20px;
-}
-
-
-.imagembeneficios {
-    width: 50%;
-}
-
-.itens {
-    font-style: italic;
+	text-align: center;
 }
 
 #missao {
-    font-size: 20px;
+	font-size: 20px
 }
 
 em strong {
-    color: #ff0000;
+	color: #FF0000;
 }
 
-footer {
-    color: #fff;
-    text-align: center;
-    background-image: url("./imagens/bg.jpg");
-    padding: 40px 0;
+.itens {
+	font-style: italic
 }
 
-/* formulários b-Alura */
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
 
-main {
-    width: 940px;
-    margin: 0 auto;
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
 }
