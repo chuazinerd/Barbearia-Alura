@@ -1,0 +1,27 @@
+body {
+
+}
+
+/* seletores avançados */
+
+/* uso dos filhos diretos */
+/* obs: os seletores avançados tem a mesma força */
+
+main > p {
+    background: #000;
+    color: blueviolet;
+}
+
+h3 + p {
+    background: chartreuse;
+    color: crimson;
+}
+
+img ~ p {
+    background: crimson;
+    color: darkmagenta;
+}
+
+.principal p:not(#missao) {
+    background: orange;
+} 
